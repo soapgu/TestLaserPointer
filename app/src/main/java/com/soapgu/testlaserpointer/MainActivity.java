@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 25,"音量减",//KEYCODE_VOLUME_DOWN
                 61,"功能——短按",//KEYCODE_TAB
                 66,"功能键——双击",//KEYCODE_ENTER
-                4,"功能键——长按(状态0)",//KEYCODE_BACK
-                135,"功能键——长按(状态1)");//KEYCODE_F5
+                4,"功能键——长按(回退)",//KEYCODE_BACK
+                135,"功能键——长按(进入)");//KEYCODE_F5
         this.tvMessage = findViewById(R.id.tv_msg);
         this.getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
